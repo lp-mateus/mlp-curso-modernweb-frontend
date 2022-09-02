@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Noto Sans', sans-serif;
+    color: #2D2B2E;
+}
+
+button{
+    width: 15rem;
+    display: inline-block;
+    background-color: rgb(255, 23, 68);
+    font-size: 1.5rem;
+    font-weight: bolder;
+    color: whitesmoke;
+    border: none;
+    border-radius: 0.5rem;
+}
+
+button:hover{
+    transform: scale(1.25);
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: whitesmoke;
+    margin: 0.5rem;
+    padding: 0;
+}
+
+a:hover{
+    cursor: pointer;
+    border-bottom: 2px whitesmoke solid;
+}
+
+h1{
+    font-weight: bolder;
+    color: whitesmoke;
+}
+
+h2{
+    font-weight: bolder;
+    color: #000444;
+}
+
+img{
+    width: 50%;
+}
+
+.navbar{
+    background-color: rgb(255, 23, 68);
+    color: whitesmoke;
+    height: 3rem;
+}
+
+.navbar ul{
+    margin-top: 0.5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+}
+
+.logo-style{
+    height: 16rem;
+    background-color: #ED4C5C;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.5);
+    
+}
+
+.logo-style h3{
+    font-size: 1.5rem;
+    color: whitesmoke;
+}
+
+.logo-style p{
+    color: whitesmoke;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.card{
+    margin-top: 1rem;
+    width: 75%;
+    height: auto;
+    background-color: rgb(255, 23, 68);
+    border-radius: 1rem;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.5);
+}
+
+.card h3{
+    margin-top: 0.5rem;
+    color: whitesmoke;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.card p{
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    color: whitesmoke;
+    font-weight: bolder;
+    text-align: center;
+}
+
+/* Utilities */
+
+.container{
+    max-width: 65rem;
+    margin: 0 auto;
+    padding-left: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.grid{
+    width: 100%;
+    height: 100%;
+    max-width: 65rem;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 45% 45%;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.container-center{
+    max-width: 65rem;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+}
+
+.grid-items{
+    width: 100%;
+    height: 100%;
+    max-width: 65rem;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    gap: 1rem;
+    align-items: center;
+    text-align: center;
+}
+
+
